@@ -1,0 +1,32 @@
+{
+  "name": "transfemsbot",
+  "version": "1.0.0",
+  "description": "Utility bot for the Transfems Greece server",
+  "keywords": [
+    "bot",
+    "discord.js",
+    "trans",
+    "server-management"
+  ],
+  "license": "GPL-3.0-or-later",
+  "author": "Νεφέλη Κωνσταντάτου",
+  "type": "commonjs",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node .",
+    "dev": "nodemon",
+    "register": "ts-node ./src/register_commands.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fosspointer/transfemsbot"
+  }
+}
